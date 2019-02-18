@@ -1,5 +1,8 @@
-package com.fei.juc.base;
+package base;
 
+/**
+ * 线程的六种状态
+ */
 public class ThreadStatus {
     public static void main(String[] args) {
         /**
