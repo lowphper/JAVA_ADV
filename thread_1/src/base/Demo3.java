@@ -18,7 +18,8 @@ class Ticket {
         lock.lock();//锁上
         try {
             if (count > 0) {
-                System.out.println(Thread.currentThread().getName() + "卖出票一张,还剩" + count--);
+                count--;
+                System.out.println(Thread.currentThread().getName() + "卖出票一张,还剩" + count);
             }
         } catch (Exception e) {
 
