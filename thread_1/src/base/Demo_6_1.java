@@ -6,6 +6,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 用Lock代替Synchronized
+ * Lock相当于Synchronized
+ * condition.await()相当于this.wait()
+ * condition.signalAll相当于this.notifyAll()
  */
 
 class Count1 {
