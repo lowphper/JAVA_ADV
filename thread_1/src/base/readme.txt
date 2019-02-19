@@ -4,3 +4,7 @@ Demo3:线程买票示例与ReentrantLock类的使用
 Demo4:lambda表达式的写法示例
 Demo5:三种集合不安全示例
 Demo5_1:三种集合线程安全示例
+Demo5_2:ArrayList线程不安全分析
+Demo5_3:HashMap线程不安全分析（待续）
+Demo_6:线程操作，线程交替操作，虚假唤醒
+Demo_6_1:用Lock代替Synchronized的示例
