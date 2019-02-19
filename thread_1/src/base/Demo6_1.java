@@ -55,7 +55,7 @@ class Count1 {
 
 
 
-public class Demo_6_1 {
+public class Demo6_1 {
     public static void main(String[] args) {
         Count1 c1 = new Count1();
         new Thread(()->{
