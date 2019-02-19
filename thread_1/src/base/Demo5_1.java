@@ -25,6 +25,7 @@ public class Demo5_1 {
 //            new Thread(()->{list.add(UUID.randomUUID().toString().substring(0,3));
 //                System.out.println(list);},String.valueOf(i)).start();
 //        }
+        //在ConcurrentHashMap中添加元素用到了synchronized
         ConcurrentHashMap<Object, Object> map = new ConcurrentHashMap<>();
         for (int i = 0; i < 30 ; i++) {
             new Thread(()->{map.put(Thread.currentThread().getName(),UUID.randomUUID().toString().substring(0,3));
