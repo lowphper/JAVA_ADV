@@ -12,3 +12,5 @@ Demo7：线程8锁
 Demo8:第三种创建线程方法，实现Callable接口
 Demo9:秦灭六国示例，控住线程的运行顺序，CountDownLatch类的使用
 Demo9_1:枚举类的创建
+Demo10:CyclicBarrier类示例
+Demo11:Semaphore类的示例
