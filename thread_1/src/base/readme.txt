@@ -7,4 +7,5 @@ Demo5_1:三种集合线程安全示例
 Demo5_2:ArrayList线程不安全分析
 Demo5_3:HashMap线程不安全分析（待续）
 Demo_6:线程操作，线程交替操作，虚假唤醒
-Demo_6_1:用Lock代替Synchronized的示例
+Demo6_1:用Lock代替Synchronized的示例
+Demo7：线程8锁
