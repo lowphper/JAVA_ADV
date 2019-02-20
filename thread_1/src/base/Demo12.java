@@ -16,5 +16,11 @@ public class Demo12 {
      * 第三种创建线程的方法:实现Callable接口，这个接口方法可以抛异常和有返回值，用FutureTask来代替Runnable接口，
      * 三个线程类的使用：CountDownLatch(减法阻止线程，计数变为0),CyclicBarrier(加法阻止线程，线程达到一定数量),Semaphore(抢车位线程)
      * 枚举类的使用
+     *
+     * 三个并发编程类的总结：
+     * CountDownLatch:一般用于一个线程A等待其他线程执行完毕后再执行线程A
+     * CyclicBarrier:一般用于线程同步，多个线程都达到状态后，再执行其他任务，可重用
+     * SemaPhore:一般用于控制多个线程对资源的访问控制
      */
+
 }
