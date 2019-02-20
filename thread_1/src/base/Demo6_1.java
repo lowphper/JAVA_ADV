@@ -5,7 +5,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 用Lock代替Synchronized
+ * 用Lock代替Synchronized，用Condition里的方法来配合lock完成睡眠唤醒等操作
  * Lock相当于Synchronized
  * condition.await()相当于this.wait()
  * condition.signalAll相当于this.notifyAll()
