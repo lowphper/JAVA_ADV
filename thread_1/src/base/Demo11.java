@@ -15,7 +15,7 @@ public class Demo11 {
         for (int i = 0; i <9 ; i++) {
             new Thread(()->{
                 try {
-                    s.acquire();
+                    s.acquire();//获取一个许可，如果没有许可，下面的程序就无法运行
                     System.out.println(Thread.currentThread().getName()+"线程抢到了车位！");//线程抢到了车位
                     TimeUnit.SECONDS.sleep(3);//睡三秒
                     System.out.println(Thread.currentThread().getName()+"线程离开了车位！");//离开车位
